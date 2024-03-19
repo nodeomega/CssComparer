@@ -1,0 +1,19 @@
+.text-css-control {
+  display:flex;
+  flex-direction: column;
+  margin:10px;
+
+  .css-input {
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+
+    label {
+      display:block;      
+    }
+
+    textarea {
+      width: 100%;
+    }
+  }
+}
